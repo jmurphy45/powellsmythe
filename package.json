@@ -9,7 +9,7 @@
     "watch": "vue-cli-service serve & node-sass --watch ./src/assets/scss -o ./public/css",
     "sass": "node-sass --watch ./src/assets/scss -o ./public/css",
     "start": "node server.js",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build"
   },
   "dependencies": {
     "core-js": "^2.6.5",
