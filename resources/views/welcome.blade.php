@@ -12,8 +12,8 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                background-color: #2d2b2a;
+                color: #8B784A;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -45,7 +45,9 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 44px;
+                letter-spacing: 0.5em;
+                text-transform: uppercase;
             }
 
             .links > a {
