@@ -45,7 +45,7 @@
             }
 
             .title {
-                font-size: 44px;
+                font-size: 36px;
                 letter-spacing: 0.5em;
                 text-transform: uppercase;
             }
