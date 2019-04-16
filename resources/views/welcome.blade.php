@@ -7,15 +7,17 @@
         <title>POWELL SMYTHE</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
+        <link rel="stylesheet" href="https://use.typekit.net/xtn8hhz.css">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #2d2b2a;
+                background-color: #444549;
                 color: #8B784A;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-family: regulator-nova, sans-serif;
+                font-weight: 500;
+                font-style: normal;
                 height: 100vh;
                 margin: 0;
             }
@@ -45,6 +47,9 @@
             }
 
             .title {
+                /*font-family: regulator-nova, sans-serif;
+                font-weight: 600;
+                font-style: normal;*/
                 font-size: 36px;
                 letter-spacing: 0.5em;
                 text-transform: uppercase;
@@ -61,7 +66,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                /*margin-bottom: 30px;*/
             }
         </style>
     </head>
