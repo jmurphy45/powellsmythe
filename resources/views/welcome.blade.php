@@ -4,18 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>POWELL SMYTHE</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
+        <link rel="stylesheet" href="https://use.typekit.net/xtn8hhz.css">
+
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}" defer></script>
+
+        <!-- Styles -->
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                background-color: #414042;
+                color: #8B784A;
+                font-family: regulator-nova, sans-serif;
+                font-weight: 500;
+                font-style: normal;
                 height: 100vh;
                 margin: 0;
             }
@@ -45,7 +53,12 @@
             }
 
             .title {
-                font-size: 84px;
+                /*font-family: regulator-nova, sans-serif;
+                font-weight: 600;
+                font-style: normal;*/
+                font-size: 36px;
+                letter-spacing: 0.5em;
+                text-transform: uppercase;
             }
 
             .links > a {
@@ -59,7 +72,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                /*margin-bottom: 20px;*/
             }
         </style>
     </head>
@@ -81,10 +94,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    {{-- Powell Smythe --}}
+                    <img class="" src="{{ asset('images/wordmark.svg') }}" width="491" height="26">
+                </div>
+                <div class="">
+                    <button class="btn btn-gold-outline press mt-3">Message Us</button>
                 </div>
 
-                <div class="links">
+                {{-- <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
@@ -92,7 +109,7 @@
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
+                </div> --}}
             </div>
         </div>
     </body>

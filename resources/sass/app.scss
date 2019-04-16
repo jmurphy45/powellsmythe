@@ -1,6 +1,6 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 // Variables
 @import 'variables';
@@ -11,4 +11,42 @@
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn {
+	outline: none !important;
+	box-shadow: none !important;
+	border-radius: 0;
+}
+
+.btn-gold {
+	background: #8B784A;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+
+.btn-gold-outline {
+	border: solid 2px #8B784A;
+	background: transparent;
+	color: #8B784A;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+
+.btn-gold-outline:hover {
+	border: solid 2px #8B784A !important;
+	background: #8B784A !important;
+	color: #414042 !important;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	font-weight: 600;
+	letter-spacing: 0.08em;
+}
+
+.press:active {
+	transform: scale(1.03);
 }
