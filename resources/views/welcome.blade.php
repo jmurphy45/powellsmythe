@@ -10,6 +10,12 @@
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
         <link rel="stylesheet" href="https://use.typekit.net/xtn8hhz.css">
 
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}" defer></script>
+
+        <!-- Styles -->
+        <link href="{{ mix('css/app.css') }}" rel="stylesheet">
+
         <!-- Styles -->
         <style>
             html, body {
@@ -66,7 +72,7 @@
             }
 
             .m-b-md {
-                /*margin-bottom: 30px;*/
+                /*margin-bottom: 20px;*/
             }
         </style>
     </head>
@@ -88,7 +94,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Powell Smythe
+                    {{-- Powell Smythe --}}
+                    <img class="" src="{{ asset('images/wordmark.svg') }}" width="491" height="26">
+                </div>
+                <div class="">
+                    <button class="btn btn-gold-outline press mt-3">Message Us</button>
                 </div>
 
                 {{-- <div class="links">
