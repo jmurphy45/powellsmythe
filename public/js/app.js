@@ -1805,7 +1805,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    closeModal: function closeModal() {
+      this.$refs['contact-modal'].hide();
+    }
+  },
   mounted: function mounted() {
     console.log('Component mounted.');
   }
@@ -61270,7 +61283,36 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _vm._m(0)
+    _c("form", [
+      _c("div", { staticClass: "modal-close" }, [
+        _c("button", { on: { click: _vm.closeModal } }, [
+          _c(
+            "svg",
+            {
+              staticStyle: { fill: "#7C7972" },
+              attrs: {
+                xmlns: "http://www.w3.org/2000/svg",
+                viewBox: "0 0 24 24",
+                width: "18px",
+                height: "18px"
+              }
+            },
+            [
+              _c("path", {
+                attrs: {
+                  d:
+                    "M12,2C6.47,2,2,6.47,2,12c0,5.53,4.47,10,10,10s10-4.47,10-10C22,6.47,17.53,2,12,2z M16.707,15.293 c0.391,0.391,0.391,1.023,0,1.414C16.512,16.902,16.256,17,16,17s-0.512-0.098-0.707-0.293L12,13.414l-3.293,3.293 C8.512,16.902,8.256,17,8,17s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414L10.586,12L7.293,8.707 c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L12,10.586l3.293-3.293c0.391-0.391,1.023-0.391,1.414,0 s0.391,1.023,0,1.414L13.414,12L16.707,15.293z"
+                }
+              })
+            ]
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1)
+    ])
   ])
 }
 var staticRenderFns = [
@@ -61278,64 +61320,74 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("form", [
-      _c("div", { staticClass: "form-row" }, [
-        _c("div", { staticClass: "col-sm-6 pt-2" }, [
-          _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { type: "text", id: "name", placeholder: "Name" }
-          })
-        ]),
+    return _c("div", { staticClass: "form-row" }, [
+      _c("div", { staticClass: "col-sm-6 pt-2" }, [
+        _c("label", { attrs: { for: "name" } }, [_vm._v("Name")]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-sm-6 pt-2" }, [
-          _c("label", { attrs: { for: "company" } }, [_vm._v("Company")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { type: "text", id: "company", placeholder: "Company" }
-          })
-        ]),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { type: "text", id: "name", placeholder: "Name" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-6 pt-2" }, [
+        _c("label", { attrs: { for: "company" } }, [_vm._v("Company")]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-sm-6 pt-2" }, [
-          _c("label", { attrs: { for: "email" } }, [_vm._v("Email Address")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { type: "email", id: "email", placeholder: "Email" }
-          })
-        ]),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { type: "text", id: "company", placeholder: "Company" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-6 pt-2" }, [
+        _c("label", { attrs: { for: "email" } }, [_vm._v("Email Address")]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-sm-6 pt-2" }, [
-          _c("label", { attrs: { for: "phone" } }, [_vm._v("Phone Number")]),
-          _vm._v(" "),
-          _c("input", {
-            staticClass: "form-control",
-            attrs: { type: "phone", id: "phone", placeholder: "Phone" }
-          })
-        ]),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { type: "email", id: "email", placeholder: "Email" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-6 pt-2" }, [
+        _c("label", { attrs: { for: "phone" } }, [_vm._v("Phone Number")]),
         _vm._v(" "),
-        _c("div", { staticClass: "col-sm-12 pt-2" }, [
-          _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
-          _vm._v(" "),
-          _c("textarea", {
-            staticClass: "form-control",
-            attrs: {
-              type: "text",
-              id: "message",
-              placeholder: "Send Us A Note",
-              rows: "4"
-            }
-          })
+        _c("input", {
+          staticClass: "form-control",
+          attrs: { type: "phone", id: "phone", placeholder: "Phone" }
+        })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-12 pt-2" }, [
+        _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
+        _vm._v(" "),
+        _c("textarea", {
+          staticClass: "form-control pt-3 pb-3",
+          attrs: {
+            type: "text",
+            id: "message",
+            placeholder: "Message Details",
+            rows: "4"
+          }
+        })
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-row align-items-center" }, [
+      _c("div", { staticClass: "col pt-3" }, [
+        _c("p", { staticClass: "modal-address mb-0" }, [
+          _vm._v("2537 Broad Avenue, Memphis, TN 38112")
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "form-row pl-1" }, [
+      _c("div", { staticClass: "col-auto pt-3" }, [
         _c(
           "button",
           {
-            staticClass: "btn btn-gold-outline press mt-3",
+            staticClass: "btn btn-gold-outline press",
             attrs: { type: "submit" }
           },
           [_vm._v("SEND MESSAGE")]
@@ -61472,29 +61524,27 @@ var render = function() {
           _vm._v("ANTIQUES & INTERIORS")
         ]),
         _vm._v(" "),
-        _c("div", {}, [
-          _c(
-            "button",
-            {
-              directives: [
-                {
-                  name: "b-modal",
-                  rawName: "v-b-modal.modal-1",
-                  modifiers: { "modal-1": true }
-                }
-              ],
-              staticClass: "btn btn-gold-outline press mt-3"
-            },
-            [_vm._v("Contact Us")]
-          )
-        ])
+        _c(
+          "button",
+          {
+            directives: [
+              {
+                name: "b-modal",
+                rawName: "v-b-modal.contact-modal",
+                modifiers: { "contact-modal": true }
+              }
+            ],
+            staticClass: "btn btn-gold-outline press mt-3"
+          },
+          [_vm._v("Contact Us")]
+        )
       ]),
       _vm._v(" "),
       _c(
         "b-modal",
         {
           attrs: {
-            id: "modal-1",
+            id: "contact-modal",
             size: "lg",
             centered: "",
             "hide-header": "",

@@ -10677,6 +10677,13 @@ p.home-page {
   font-size: 0.8em;
 }
 
+p.modal-address {
+  letter-spacing: 0.6em;
+  font-weight: 500;
+  font-size: 0.65em;
+  text-transform: uppercase;
+}
+
 .btn {
   outline: none !important;
   box-shadow: none !important;
@@ -10693,7 +10700,7 @@ p.home-page {
 
 .btn-gold-outline {
   border: solid 2px #8B784A;
-  background: transparent;
+  background: #414042;
   color: #8B784A;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -10734,73 +10741,89 @@ p.home-page {
   box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.2);
 }
 
+.modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.modal-close:hover {
+  cursor: pointer;
+}
+
+.modal-close button {
+  background: transparent;
+  border: none;
+}
+
+.modal-close button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
 label {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.7em;
   letter-spacing: 0.08em;
 }
 
 .form-control {
+  line-height: normal;
   height: 3.8em;
   background: #bdb5a1;
-  color: #414042;
-  font-size: 0.8em;
+  color: #202021;
+  font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  border: solid 2px #58461b;
+  border: solid 2px #8B784A;
   border-radius: 0;
-  outline: none;
 }
 
 .form-control:focus {
   background: #bdb5a1;
-  color: #414042;
-  font-size: 0.8em;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  border: solid 2px #58461b;
-  border-radius: 0;
+  color: #202021;
+  border: solid 2px #8B784A;
   outline: none !important;
   box-shadow: none !important;
 }
 
 ::-webkit-input-placeholder {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: #818181;
+  color: #6D6D6D !important;
 }
 
 ::-moz-placeholder {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: #818181;
+  color: #6D6D6D !important;
 }
 
 :-ms-input-placeholder {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: #818181;
+  color: #6D6D6D !important;
 }
 
 ::-ms-input-placeholder {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: #818181;
+  color: #6D6D6D !important;
 }
 
 ::placeholder {
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: 600;
   letter-spacing: 0.08em;
-  color: #818181;
+  color: #6D6D6D !important;
 }
 
