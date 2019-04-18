@@ -16,7 +16,7 @@
             <div class="form-row">
                 <div class="col-sm-6 pt-2">
                     <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <input type="text" class="form-control" id="name" placeholder="Name" autofocus>
                 </div>
                 <div class="col-sm-6 pt-2">
                     <label for="company">Company</label>

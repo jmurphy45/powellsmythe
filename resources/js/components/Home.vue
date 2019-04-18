@@ -7,7 +7,7 @@
             <p class="home-page mt-3">ANTIQUES &amp; INTERIORS</p>
             <button class="btn btn-gold-outline press mt-3" v-b-modal.contact-modal>Contact Us</button>
         </div>
-        <b-modal id="contact-modal" size="lg" centered hide-header hide-footer>
+        <b-modal id="contact-modal" size="lg" hide-header hide-footer>
             <contact-form></contact-form>
         </b-modal>
     </div>

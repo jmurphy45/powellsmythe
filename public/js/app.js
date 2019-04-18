@@ -61326,7 +61326,12 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("input", {
           staticClass: "form-control",
-          attrs: { type: "text", id: "name", placeholder: "Name" }
+          attrs: {
+            type: "text",
+            id: "name",
+            placeholder: "Name",
+            autofocus: ""
+          }
         })
       ]),
       _vm._v(" "),
@@ -61546,7 +61551,6 @@ var render = function() {
           attrs: {
             id: "contact-modal",
             size: "lg",
-            centered: "",
             "hide-header": "",
             "hide-footer": ""
           }
