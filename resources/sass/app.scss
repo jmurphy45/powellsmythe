@@ -159,6 +159,9 @@ and (orientation : portrait) {
 	    height: 0 !important;
 	    padding-top: 45vh;
 	}
+	.modal-dialog-centered {
+	    align-items: top;
+	}
 }
 
 // iPhone 6/7/8 Plus portrait
@@ -172,6 +175,9 @@ and (orientation : portrait) {
 	}
 	p.home-page {
 		font-size: 0.75em !important;
+	}
+	.modal-dialog-centered {
+	    align-items: top;
 	}
 }
 
@@ -187,6 +193,9 @@ and (orientation : portrait) {
     .home-content svg {
 		width: 320px;
 		height: 17px;
+	}
+	.modal-dialog-centered {
+	    align-items: top;
 	}
 }
 
@@ -206,7 +215,7 @@ and (orientation : portrait) {
 		appearance: none;
 	}
 	.modal-dialog-centered {
-	    align-items: top !important;
+	    align-items: top;
 	}
 	.home-content svg {
 		width: 280px;

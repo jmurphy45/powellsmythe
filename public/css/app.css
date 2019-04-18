@@ -10843,6 +10843,10 @@ label {
     height: 0 !important;
     padding-top: 45vh;
   }
+
+  .modal-dialog-centered {
+    align-items: top;
+  }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
@@ -10853,6 +10857,10 @@ label {
 
   p.home-page {
     font-size: 0.75em !important;
+  }
+
+  .modal-dialog-centered {
+    align-items: top;
   }
 }
 
@@ -10865,6 +10873,10 @@ label {
   .home-content svg {
     width: 320px;
     height: 17px;
+  }
+
+  .modal-dialog-centered {
+    align-items: top;
   }
 }
 
@@ -10886,7 +10898,7 @@ label {
   }
 
   .modal-dialog-centered {
-    align-items: top !important;
+    align-items: top;
   }
 
   .home-content svg {
