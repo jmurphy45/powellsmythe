@@ -155,6 +155,10 @@ and (orientation : portrait) {
 		width: 330px !important;
 		height: 18px !important;
 	}
+	.full-height {
+	    height: normal;
+	    padding-top: 43vh;
+	}
 }
 
 // iPhone 6/7/8 Plus portrait

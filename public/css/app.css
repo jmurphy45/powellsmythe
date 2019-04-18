@@ -10838,6 +10838,11 @@ label {
     width: 330px !important;
     height: 18px !important;
   }
+
+  .full-height {
+    height: normal;
+    padding-top: 43vh;
+  }
 }
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
