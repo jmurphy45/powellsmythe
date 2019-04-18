@@ -10874,5 +10874,9 @@ label {
     font-weight: 600;
     font-size: 0.65em;
   }
+
+  .ps-div {
+    left: 0px;
+  }
 }
 

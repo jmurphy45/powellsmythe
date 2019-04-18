@@ -61243,7 +61243,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container p-5" }, [
+  return _c("div", { staticClass: "p-sm-5 pt-5 pb-5 p-3" }, [
     _c("div", { staticClass: "ps-div" }, [
       _c(
         "svg",
