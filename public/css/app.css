@@ -10840,7 +10840,7 @@ label {
   }
 
   .full-height {
-    height: normal;
+    height: 100%;
     padding-top: 43vh;
   }
 }
