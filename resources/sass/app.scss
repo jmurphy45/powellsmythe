@@ -195,6 +195,9 @@ and (orientation : portrait) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : portrait) {
+	.form-control {
+		box-shadow: none !important;
+	}
 	.home-content svg {
 		width: 280px;
 		height: 14px;
