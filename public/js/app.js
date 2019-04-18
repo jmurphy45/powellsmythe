@@ -61289,7 +61289,7 @@ var render = function() {
           _c(
             "svg",
             {
-              staticStyle: { fill: "#7C7972" },
+              staticStyle: { fill: "#6a6862" },
               attrs: {
                 xmlns: "http://www.w3.org/2000/svg",
                 viewBox: "0 0 24 24",
@@ -61361,7 +61361,7 @@ var staticRenderFns = [
         _c("label", { attrs: { for: "message" } }, [_vm._v("Message")]),
         _vm._v(" "),
         _c("textarea", {
-          staticClass: "form-control pt-3 pb-3",
+          staticClass: "form-control pt-2 pb-2",
           attrs: {
             type: "text",
             id: "message",

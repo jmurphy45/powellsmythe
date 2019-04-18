@@ -24,6 +24,7 @@ p.home-page {
 }
 
 p.modal-address {
+	color: #bdb5a1;
 	letter-spacing: 0.6em;
 	font-weight: 500;
 	font-size: 0.65em;
@@ -113,7 +114,7 @@ label {
 }
 
 .form-control {
-	line-height: normal;
+	line-height: 2.5em;
 	height: 3.8em;
 	background: #bdb5a1;
 	color: #202021;
@@ -133,6 +134,7 @@ label {
 }
 
 ::placeholder {
+	line-height: inherit;
 	text-transform: uppercase;
 	font-size: 0.85em;
 	font-weight: 600;
