@@ -205,6 +205,9 @@ and (orientation : portrait) {
 	textarea {
 		appearance: none;
 	}
+	.modal-dialog-centered {
+	    align-items: top;
+	}
 	.home-content svg {
 		width: 280px;
 		height: 14px;
