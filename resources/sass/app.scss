@@ -156,8 +156,8 @@ and (orientation : portrait) {
 		height: 18px !important;
 	}
 	.full-height {
-	    height: 0;
-	    padding-top: 47vh;
+	    height: 0 !important;
+	    padding-top: 49vh;
 	}
 }
 
