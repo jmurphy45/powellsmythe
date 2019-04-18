@@ -10873,6 +10873,10 @@ label {
     box-shadow: none !important;
   }
 
+  textarea {
+    box-shadow: none !important;
+  }
+
   .home-content svg {
     width: 280px;
     height: 14px;
