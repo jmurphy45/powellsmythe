@@ -10841,7 +10841,7 @@ label {
 
   .full-height {
     height: 0 !important;
-    padding-top: 45vh;
+    padding-top: 44vh;
   }
 
   .modal-dialog-centered {
@@ -10858,6 +10858,11 @@ label {
   p.home-page {
     font-size: 0.75em !important;
   }
+
+  .full-height {
+    height: 0 !important;
+    padding-top: 45vh;
+  }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
@@ -10869,6 +10874,11 @@ label {
   .home-content svg {
     width: 320px;
     height: 17px;
+  }
+
+  .full-height {
+    height: 0 !important;
+    padding-top: 46vh;
   }
 }
 
@@ -10902,6 +10912,11 @@ label {
 
   .ps-div {
     left: 0px;
+  }
+
+  .full-height {
+    height: 0 !important;
+    padding-top: 46vh;
   }
 }
 

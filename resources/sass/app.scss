@@ -157,7 +157,7 @@ and (orientation : portrait) {
 	}
 	.full-height {
 	    height: 0 !important;
-	    padding-top: 45vh;
+	    padding-top: 44vh;
 	}
 	.modal-dialog-centered {
 	    align-items: start;
@@ -176,6 +176,10 @@ and (orientation : portrait) {
 	p.home-page {
 		font-size: 0.75em !important;
 	}
+	.full-height {
+	    height: 0 !important;
+	    padding-top: 45vh;
+	}
 }
 
 // iPhone 6/7/8 portrait
@@ -190,6 +194,10 @@ and (orientation : portrait) {
     .home-content svg {
 		width: 320px;
 		height: 17px;
+	}
+	.full-height {
+	    height: 0 !important;
+	    padding-top: 46vh;
 	}
 }
 
@@ -220,5 +228,9 @@ and (orientation : portrait) {
 	}
 	.ps-div {
 		left: 0px;
+	}
+	.full-height {
+	    height: 0 !important;
+	    padding-top: 46vh;
 	}
 }
