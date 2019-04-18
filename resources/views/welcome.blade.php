@@ -25,12 +25,12 @@
                 font-family: regulator-nova, sans-serif;
                 font-weight: 500;
                 font-style: normal;
-                height: 100vh;
+                /*height: 100vh;*/
                 margin: 0;
             }
 
             .full-height {
-                height: 90vh;
+                height: 100vh;
             }
 
             .flex-center {
