@@ -10835,8 +10835,8 @@ label {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   .home-content svg {
-    width: 320px;
-    height: 17px;
+    width: 330px !important;
+    height: 18px !important;
   }
 }
 
@@ -10853,6 +10853,11 @@ label {
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
   .home-content svg {
+    width: 330px !important;
+    height: 18px !important;
+  }
+
+  .home-content svg {
     width: 320px;
     height: 17px;
   }
@@ -10860,8 +10865,8 @@ label {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   .home-content svg {
-    width: 290px;
-    height: 15px;
+    width: 280px;
+    height: 14px;
   }
 
   p.home-page {
