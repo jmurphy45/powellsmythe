@@ -10845,7 +10845,7 @@ label {
   }
 
   .modal-dialog-centered {
-    align-items: top;
+    align-items: start;
   }
 }
 
@@ -10858,10 +10858,6 @@ label {
   p.home-page {
     font-size: 0.75em !important;
   }
-
-  .modal-dialog-centered {
-    align-items: top;
-  }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
@@ -10873,10 +10869,6 @@ label {
   .home-content svg {
     width: 320px;
     height: 17px;
-  }
-
-  .modal-dialog-centered {
-    align-items: top;
   }
 }
 
@@ -10895,10 +10887,6 @@ label {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-  }
-
-  .modal-dialog-centered {
-    align-items: top;
   }
 
   .home-content svg {
