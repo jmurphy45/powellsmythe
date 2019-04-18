@@ -10879,6 +10879,12 @@ label {
             appearance: none;
   }
 
+  textarea {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+
   .home-content svg {
     width: 280px;
     height: 14px;
