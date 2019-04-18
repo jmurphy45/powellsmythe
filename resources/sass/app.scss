@@ -197,11 +197,11 @@ and (max-device-width : 568px)
 and (orientation : portrait) {
 	input[type=text],
 	input[type=tel],
-	input[type=email]
-	 {   
-	    -webkit-appearance: none;
-	    -moz-appearance: none;
-	    appearance: none;  
+	input[type=email],
+	input[type=password],
+	input[type=search]
+	{   
+		appearance: none;  
 	}
 	.home-content svg {
 		width: 280px;
