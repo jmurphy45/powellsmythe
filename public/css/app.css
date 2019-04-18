@@ -10833,3 +10833,41 @@ label {
   color: #6D6D6D !important;
 }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .home-content svg {
+    width: 320px;
+    height: 17px;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: portrait) {
+  .home-content svg {
+    width: 340px !important;
+    height: 19px !important;
+  }
+
+  p.home-page {
+    font-size: 0.75em !important;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .home-content svg {
+    width: 320px;
+    height: 17px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  .home-content svg {
+    width: 290px;
+    height: 15px;
+  }
+
+  p.home-page {
+    letter-spacing: 0.6em;
+    font-weight: 600;
+    font-size: 0.65em;
+  }
+}
+
