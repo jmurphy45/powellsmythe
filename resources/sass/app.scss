@@ -206,7 +206,7 @@ and (orientation : portrait) {
 		appearance: none;
 	}
 	.modal-dialog-centered {
-	    align-items: top;
+	    align-items: top !important;
 	}
 	.home-content svg {
 		width: 280px;

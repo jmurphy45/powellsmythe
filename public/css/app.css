@@ -10886,7 +10886,7 @@ label {
   }
 
   .modal-dialog-centered {
-    align-items: top;
+    align-items: top !important;
   }
 
   .home-content svg {
