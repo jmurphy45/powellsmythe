@@ -61353,7 +61353,7 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("input", {
           staticClass: "form-control",
-          attrs: { type: "phone", id: "phone", placeholder: "Phone" }
+          attrs: { type: "tel", id: "phone", placeholder: "Phone" }
         })
       ]),
       _vm._v(" "),

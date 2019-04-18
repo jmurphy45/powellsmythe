@@ -195,11 +195,13 @@ and (orientation : portrait) {
 and (min-device-width : 320px) 
 and (max-device-width : 568px) 
 and (orientation : portrait) {
-	.form-control {
-		box-shadow: none !important;
-	}
-	textarea {
-		box-shadow: none !important;
+	input[type=text],
+	input[type=tel],
+	input[type=email]
+	 {   
+	    -webkit-appearance: none;
+	    -moz-appearance: none;
+	    appearance: none;  
 	}
 	.home-content svg {
 		width: 280px;

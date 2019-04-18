@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-sm-6 pt-2">
                     <label for="phone">Phone Number</label>
-                    <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                    <input type="tel" class="form-control" id="phone" placeholder="Phone">
                 </div>
                 <div class="col-sm-12 pt-2">
                     <label for="message">Message</label>
