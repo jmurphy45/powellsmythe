@@ -7,7 +7,7 @@
             <p class="home-page mt-3">ANTIQUES &amp; INTERIORS</p>
             <button class="btn btn-gold-outline press mt-3" v-b-modal.contact-modal>Contact Us</button>
         </div>
-        <b-modal id="contact-modal" size="lg" centered hide-header hide-footer>
+        <b-modal ref="contact-modal" id="contact-modal" size="lg" centered hide-header hide-footer>
             <contact-form></contact-form>
         </b-modal>
     </div>
@@ -16,7 +16,10 @@
 <script>
     export default {
         mounted() {
-            console.log('Component mounted.')
+            this.$root.$on('close-contact-us', () => {
+                console.log('hello')
+                this.$refs['contact-modal'].hide()
+            });
         }
     }
 </script>

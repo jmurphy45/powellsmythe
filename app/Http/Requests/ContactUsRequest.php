@@ -13,7 +13,7 @@ class ContactUsRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,11 @@ class ContactUsRequest extends FormRequest
     public function rules()
     {
         return [
-
+            'name' => ['required','string','max:255'],
+            'company' => ['nullable','string','max:255'],
+            'email' => ['required', 'email','string','max:255'],
+            'phone' => ['nullable','string','max:25'],
+            'message' => ['required','string'],
         ];
     }
 }

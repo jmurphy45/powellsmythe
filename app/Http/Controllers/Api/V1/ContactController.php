@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Requests\ContactUsRequest;
 use App\Http\Controllers\Controller;
+use App\Mail\ContactUs;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -16,6 +18,7 @@ class ContactController extends Controller
      */
     public function store(ContactUsRequest $request)
     {
-        //
+        Mail::send(new ContactUs($request));
+        return response()->json(['message' => 'sucessful'], 200);
     }
 }

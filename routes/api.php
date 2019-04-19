@@ -13,6 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::group(['prefix' => '/v1', 'middleware' => ['auth:api'],'namespace' => 'Api\V1', 'as' => 'api.v1.'], function () {
+Route::group(['prefix' => '/v1','namespace' => 'Api\V1', 'as' => 'api.v1.'], function () {
     Route::post('/contact_us','ContactController@store');
 });
