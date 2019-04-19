@@ -2,16 +2,17 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+        <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>POWELL SMYTHE</title>
 
         <!-- Fonts -->
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
         <link rel="stylesheet" href="https://use.typekit.net/xtn8hhz.css">
-
-        <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
 
         <!-- Styles -->
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
@@ -24,7 +25,7 @@
                 font-family: regulator-nova, sans-serif;
                 font-weight: 500;
                 font-style: normal;
-                height: 100vh;
+                /*height: 100vh;*/
                 margin: 0;
             }
 
@@ -48,19 +49,6 @@
                 top: 18px;
             }
 
-            .content {
-                text-align: center;
-            }
-
-            .title {
-                /*font-family: regulator-nova, sans-serif;
-                font-weight: 600;
-                font-style: normal;*/
-                font-size: 36px;
-                letter-spacing: 0.5em;
-                text-transform: uppercase;
-            }
-
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
@@ -70,15 +58,11 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
-            .m-b-md {
-                /*margin-bottom: 20px;*/
-            }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+            {{-- @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
@@ -90,27 +74,14 @@
                         @endif
                     @endauth
                 </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    {{-- Powell Smythe --}}
-                    <img class="" src="{{ asset('images/wordmark.svg') }}" width="491" height="26">
-                </div>
-                <div class="">
-                    <button class="btn btn-gold-outline press mt-3">Message Us</button>
-                </div>
-
-                {{-- <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div> --}}
+            @endif --}}
+            <div id="app">
+                <home></home>
             </div>
         </div>
+
+        <!-- Scripts -->
+        <script src="{{ mix('js/app.js') }}" defer></script>
+
     </body>
 </html>
