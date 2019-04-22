@@ -45,7 +45,7 @@
                         </td>
                     </tr>
 
-                    {{ $footer ?? '' }}
+                    {{-- {{ $footer ?? '' }} --}}
                 </table>
             </td>
         </tr>
