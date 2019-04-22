@@ -4,7 +4,7 @@
             {{--{{ $slot }}--}}
             {{-- {{ HTML::image("https://drive.google.com/file/d/1ZYRIDtwZNb6bO6KMdmQw7dICiy2T6jE_/view?usp=sharing", "Powell Smythe") }} --}}
 
-            {{ HTML::URL('https://drive.google.com/file/d/1ZYRIDtwZNb6bO6KMdmQw7dICiy2T6jE_/view?usp=sharing', 'Powell Smythe', array('class' => 'img-fluid', 'mx-auto', 'd-block')) }}
+            {{ HTML::image('https://drive.google.com/file/d/1ZYRIDtwZNb6bO6KMdmQw7dICiy2T6jE_/view?usp=sharing', 'Powell Smythe', array('class' => 'img-fluid', 'mx-auto', 'd-block')) }}
 
             {{-- <img src="https://drive.google.com/file/d/1ZYRIDtwZNb6bO6KMdmQw7dICiy2T6jE_/view?usp=sharing" class="img-fluid mx-auto d-block" alt="Powell Smythe"> --}}
             
