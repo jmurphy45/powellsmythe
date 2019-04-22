@@ -30,7 +30,7 @@ class ContactUs extends Mailable
     public function build()
     {
         return $this->markdown('mail.contact_us')
-            ->to(['jmrphyii@memphis.edu'])
+            ->to(['typebrad@gmail.com'])
             ->subject('New Message');
     }
 }
