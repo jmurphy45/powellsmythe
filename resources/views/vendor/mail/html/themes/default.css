@@ -6,7 +6,7 @@ body, body *:not(html):not(style):not(br):not(tr):not(code) {
 }
 
 body {
-    background-color: #F8FAFC;
+    background-color: #FFFFFF;
     color: #74787E;
     height: 100%;
     hyphens: auto;
@@ -82,7 +82,7 @@ img {
 /* Layout */
 
 .wrapper {
-    background-color: #F8FAFC;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -119,8 +119,8 @@ img {
 
 .body {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #EDEFF2;
-    border-top: 1px solid #EDEFF2;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid #FFFFFF;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -142,7 +142,7 @@ img {
 /* Subcopy */
 
 .subcopy {
-    border-top: 1px solid #EDEFF2;
+    border-top: 1px solid #FFFFFF;
     margin-top: 25px;
     padding-top: 25px;
 }
@@ -180,7 +180,7 @@ img {
 }
 
 .table th {
-    border-bottom: 1px solid #EDEFF2;
+    border-bottom: 1px solid #FFFFFF;
     padding-bottom: 8px;
     margin: 0;
 }
@@ -212,7 +212,7 @@ img {
 .button {
     border-radius: 3px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.16);
-    color: #FFF;
+    color: #FFFFFF;
     display: inline-block;
     text-decoration: none;
     -webkit-text-size-adjust: none;
@@ -252,7 +252,7 @@ img {
 }
 
 .panel-content {
-    background-color: #F1F5F8;
+    background-color: #FFFFFF;
     padding: 16px;
 }
 
@@ -269,7 +269,7 @@ img {
 
 .promotion {
     background-color: #FFFFFF;
-    border: 2px dashed #9BA2AB;
+    border: 2px dashed #FFFFFF;
     margin: 0;
     margin-bottom: 25px;
     margin-top: 25px;
