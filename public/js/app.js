@@ -62171,7 +62171,9 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "col pt-3" }, [
       _c("p", { staticClass: "modal-address mb-0" }, [
-        _vm._v("2537 Broad Avenue, Memphis, TN 38112")
+        _vm._v("2537 Broad Avenue"),
+        _c("br"),
+        _vm._v("Memphis, TN 38112")
       ])
     ])
   }
@@ -74754,8 +74756,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/jmurphy/laravel/powellsmythe/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/jmurphy/laravel/powellsmythe/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/Brad/Further/powellsmythe/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/Brad/Further/powellsmythe/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
