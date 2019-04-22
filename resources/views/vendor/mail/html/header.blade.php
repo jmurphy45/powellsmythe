@@ -3,7 +3,7 @@
         <a href="{{ $url }}">
             {{--{{ $slot }}--}}
 
-             <img src="{{URL::asset('/images/email-header.jpg')}}" alt="Powell Smythe" width="325" width="18" class="img-fluid d-block">
+             <img src="{{ URL::asset('/images/email-header.jpg') }}" alt="Powell Smythe" width="250" width="13">
 
             
             {{-- <svg viewBox="0 0 491 25.13" width="475" height="25" style="fill: #404041">
