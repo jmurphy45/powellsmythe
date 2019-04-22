@@ -5,60 +5,26 @@
         {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
-        <!-- CSRF Token -->
+        {{-- CSRF Token --}}
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>POWELL SMYTHE</title>
 
-        <!-- Fonts -->
+        {{-- Fonts --}}
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
         <link rel="stylesheet" href="https://use.typekit.net/xtn8hhz.css">
 
-        <!-- Styles -->
+        {{-- Styles --}}
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #414042;
-                color: #8B784A;
-                font-family: regulator-nova, sans-serif;
-                font-weight: 500;
-                font-style: normal;
-                /*height: 100vh;*/
-                margin: 0;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
-        </style>
+        {{-- Favicons --}}
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#8b784a">
+        <meta name="msapplication-TileColor" content="#bdb5a1">
+        <meta name="theme-color" content="#bdb5a1">
     </head>
     <body>
         <div class="flex-center position-ref full-height">

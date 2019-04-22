@@ -10667,6 +10667,36 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+html,
+body {
+  background-color: #414042;
+  color: #8B784A;
+  font-family: regulator-nova, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
 .home-content {
   text-align: center;
 }
@@ -10679,7 +10709,7 @@ p.home-page {
 
 p.modal-address {
   color: #bdb5a1;
-  letter-spacing: 0.6em;
+  letter-spacing: 0.3em;
   font-weight: 500;
   font-size: 0.65em;
   text-transform: uppercase;

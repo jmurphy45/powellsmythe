@@ -37,7 +37,7 @@
             </div>
             <div class="form-row align-items-center">
                 <div class="col pt-3">
-                    <p class="modal-address mb-0">2537 Broad Avenue, Memphis, TN 38112</p>
+                    <p class="modal-address mb-0">2537 Broad Avenue<br />Memphis, TN 38112</p>
                 </div>
                 <div class="col-auto pt-3">
                     <button @click="handleSubmit" type="button" class="btn btn-gold-outline press">SEND MESSAGE</button>
