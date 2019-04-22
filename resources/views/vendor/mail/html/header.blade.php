@@ -1,7 +1,7 @@
 <tr>
     <td class="header">
         <a href="{{ $url }}">
-        	{{ HTML::image('https://drive.google.com/file/d/1yI1y4wkIi9DGGeWUycX_XKzAa991ORGN/view?usp=sharing') }}
+        	{{-- {{ HTML::image('https://drive.google.com/file/d/1yI1y4wkIi9DGGeWUycX_XKzAa991ORGN/view?usp=sharing') }} --}}
 
             {{--{{ $slot }}--}}
             {{-- <svg viewBox="0 0 491 25.13" width="475" height="25" style="fill: #8b784a">
