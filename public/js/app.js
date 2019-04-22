@@ -1852,6 +1852,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.name = null;
           _this.message = null;
           _this.phone = null;
+          _this.thankyou = false;
         }, 2500);
       });
     }
@@ -1888,12 +1889,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
+  methods: {
+    openModal: function openModal() {
+      this.$refs['contact-modal'].show();
+    }
+  },
   mounted: function mounted() {
     var _this = this;
 
     this.$root.$on('close-contact-us', function () {
-      console.log('hello');
-
       _this.$refs['contact-modal'].hide();
     });
   }
@@ -62303,14 +62307,8 @@ var render = function() {
         _c(
           "button",
           {
-            directives: [
-              {
-                name: "b-modal",
-                rawName: "v-b-modal.contact-modal",
-                modifiers: { "contact-modal": true }
-              }
-            ],
-            staticClass: "btn btn-gold-outline press mt-3"
+            staticClass: "btn btn-gold-outline press mt-3",
+            on: { click: _vm.openModal }
           },
           [_vm._v("Contact Us")]
         )

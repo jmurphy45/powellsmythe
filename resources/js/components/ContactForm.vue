@@ -85,7 +85,7 @@
                             this.email = null;this.name = null;
                             this.message = null;
                             this.phone = null;
-
+                            this.thankyou = false
                         }, 2500)
                     });
             }
