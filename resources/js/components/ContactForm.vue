@@ -74,7 +74,7 @@
                     company: this.company,
                     email: this.email,
                     phone: this.phone,
-                    message: this.email,
+                    message: this.message,
                 })
                     .then( (response) => {
                         this.thankyou = true

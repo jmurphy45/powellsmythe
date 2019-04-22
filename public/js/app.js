@@ -1840,7 +1840,7 @@ __webpack_require__.r(__webpack_exports__);
         company: this.company,
         email: this.email,
         phone: this.phone,
-        message: this.email
+        message: this.message
       }).then(function (response) {
         _this.thankyou = true;
         setTimeout(function () {
