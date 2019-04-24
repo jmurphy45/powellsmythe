@@ -29,7 +29,11 @@ class ContactUs extends Mailable
      */
     public function build()
     {
-        $emails = ['biggspowell@yahoo.com','gracey@graceysmythe.com', $this->data->email];
+        if(app()->environment() === 'production'){
+            $emails = ['biggspowell@yahoo.com','gracey@graceysmythe.com', $this->data->email];
+        }else{
+            $emails = [ $this->data->email];
+        }
 
         return $this->markdown('mail.contact_us')
             ->to($emails)
