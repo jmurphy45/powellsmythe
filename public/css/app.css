@@ -10715,6 +10715,19 @@ p.modal-address {
   text-transform: uppercase;
 }
 
+p.thank-you {
+  color: #bdb5a1;
+  letter-spacing: 0.3em;
+  font-weight: 500;
+  font-size: 0.65em;
+  text-transform: uppercase;
+  line-height: 2em;
+}
+
+.thank-you h4 {
+  letter-spacing: 0.2em;
+}
+
 .btn {
   outline: none !important;
   box-shadow: none !important;
@@ -10761,15 +10774,10 @@ p.modal-address {
 }
 
 .ps-div {
-  background: #8B784A;
-  padding-top: 8px;
   position: absolute;
-  width: 80px;
-  height: 40px;
-  top: 10px;
-  left: -10px;
-  text-align: center;
-  box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.2);
+  top: 20px;
+  left: 30px;
+  z-index: 9000;
 }
 
 .modal-close {
@@ -10811,7 +10819,7 @@ label {
 }
 
 .form-control:focus {
-  background: #bdb5a1 !important;
+  background: #e2ded3;
   color: #202021;
   border: solid 2px #8B784A;
   outline: none !important;
@@ -10861,6 +10869,14 @@ label {
   font-weight: 600;
   letter-spacing: 0.08em;
   color: #6D6D6D !important;
+}
+
+#thank-you {
+  text-align: center;
+}
+
+#thank-you h4 {
+  font-size: 20px;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
@@ -10941,7 +10957,7 @@ label {
   }
 
   .ps-div {
-    left: 0px;
+    top: 15px;
   }
 
   .full-height {
