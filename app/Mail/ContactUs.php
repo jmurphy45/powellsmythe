@@ -29,10 +29,10 @@ class ContactUs extends Mailable
      */
     public function build()
     {
+        $emails = ['biggspowell@yahoo.com','gracey@graceysmythe.com', $this->data->email];
+
         return $this->markdown('mail.contact_us')
-            //in production
-                //biggspowell@yahoo.com     and     gracey@graceysmythe.com
-            ->to(['typebrad@gmail.com'])
+            ->to($emails)
             ->subject('New message from powellsmythe.com');
     }
 }
