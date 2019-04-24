@@ -1859,7 +1859,7 @@ __webpack_require__.r(__webpack_exports__);
           _this.message = null;
           _this.phone = null;
           _this.thankyou = false;
-        }, 9000);
+        }, 8000);
       });
     }
   },

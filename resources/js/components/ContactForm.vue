@@ -92,7 +92,7 @@
                             this.message = null;
                             this.phone = null;
                             this.thankyou = false
-                        }, 9000)
+                        }, 8000)
                     });
             }
         },
