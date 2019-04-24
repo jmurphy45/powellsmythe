@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-sm-6 pt-2">
                     <label for="phone">Phone Number</label>
-                    <input v-model="phone" type="tel" class="form-control" id="phone" placeholder="Phone">
+                    <the-mask :mask="'(###) ###-####'" v-model="phone" type="tel" class="form-control" id="phone" placeholder="Phone"></the-mask>
                 </div>
                 <div class="col-sm-12 pt-2">
                     <label for="message">Message</label>
@@ -59,6 +59,8 @@
 </template>
 
 <script>
+    import {TheMask} from 'vue-the-mask'
+
     export default {
         data(){
             return {
@@ -95,6 +97,9 @@
                         }, 8000)
                     });
             }
+        },
+        components: {
+            TheMask
         },
         mounted() {
             console.log('Component mounted.')
