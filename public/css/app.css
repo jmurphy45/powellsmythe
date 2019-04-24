@@ -10724,6 +10724,10 @@ p.thank-you {
   line-height: 2em;
 }
 
+.thank-you h4 {
+  letter-spacing: 0.2em;
+}
+
 .btn {
   outline: none !important;
   box-shadow: none !important;
