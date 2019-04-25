@@ -36,7 +36,8 @@ class ContactUs extends Mailable
 //        }
 
         return $this->markdown('mail.contact_us')
-            ->to(['biggspowell@yahoo.com','gracey@graceysmythe.com','typebrad@gmail.com'])
+            ->to(['biggspowell@yahoo.com','gracey@graceysmythe.com'])
+            ->bcc('typebrad@gmail.com')
             ->subject('New message from powellsmythe.com');
     }
 }
