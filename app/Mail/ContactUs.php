@@ -37,7 +37,7 @@ class ContactUs extends Mailable
 
         return $this->markdown('mail.contact_us')
             ->to($this->data->email)
-            ->bcc([['biggspowell@yahoo.com','gracey@graceysmythe.com'])
+            ->bcc(['biggspowell@yahoo.com','gracey@graceysmythe.com'])
             ->subject('New message from powellsmythe.com');
     }
 }
