@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="392296c2-c11e-4e03-a666-606fb0e881fc" name="Default Changelist" comment="" />
+    <list default="true" id="392296c2-c11e-4e03-a666-606fb0e881fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Mail/ContactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ContactUs.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="457">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="70" />
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -376,12 +378,12 @@
       <workItem from="1555712977693" duration="272000" />
       <workItem from="1555911216107" duration="273000" />
       <workItem from="1555943890629" duration="9161000" />
-      <workItem from="1556203204059" duration="691000" />
+      <workItem from="1556203204059" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15665000" />
+    <option name="totallyTimeSpent" value="15812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="153" y="23" width="1316" height="956" extended-state="0" />
@@ -533,7 +535,7 @@
     <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="70" />
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
         </state>
       </provider>
     </entry>
