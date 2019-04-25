@@ -168,6 +168,10 @@ label {
 	border-radius: 0;
 }
 
+textarea.form-control {
+	line-height: 1.5em;
+}
+
 .form-control:focus {
 	background: #e2ded3;
 	color: #202021;
